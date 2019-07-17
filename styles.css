@@ -1,0 +1,42 @@
+#svg-container {
+  background-color:#0066cc;
+}
+
+svg {
+  display:block;
+  margin:auto;
+}
+
+path {
+  fill: #98f542;
+  stroke: black;
+  stroke-width: 2;
+  cursor: pointer;
+}
+
+path:hover {
+  fill: red;
+  transition: 0.4s;
+}
+
+.table-headers {
+  color:#0066cc;
+  text-decoration:underline;
+}
+
+.table-headers:hover {
+  color:#0066cc;
+  text-decoration:underline;
+  cursor:pointer;
+}
+
+.table-headers-selected {
+  color:red;
+  text-decoration:underline;
+}
+
+.table-headers-selected:hover {
+  color:red;
+  text-decoration:underline;
+  cursor:pointer;
+}
